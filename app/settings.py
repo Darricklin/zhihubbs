@@ -16,7 +16,7 @@ class Config:
 
 
 class DevelopmentConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:s19930110l@127.0.0.1:3306/dev'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:123456@140.143.231.130:3306/zhihubbs'
     SQLALCHEMY_COMMIT_ON_TEARDOWN = False
     DEBUG = True
 
