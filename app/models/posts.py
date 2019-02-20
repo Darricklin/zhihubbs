@@ -27,3 +27,9 @@ class Base:
             db.session.rollback()
 
 class Posts(Base,db.Model):
+    id=db.column(db.Integer,primary_key=True)
+    title=db.column(db.String(255))
+    content=db.column(db.text)
+    tag=db.column(db.String(255))
+    author=db.column(db.String(255))
+
